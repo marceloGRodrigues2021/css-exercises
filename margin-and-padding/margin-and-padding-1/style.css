@@ -2,7 +2,7 @@ body {
   max-width: 600px;
   margin: 0 auto;
 }
-
+/*body's content*/
 .one {
   background: pink;
   border: 3px solid blue;
