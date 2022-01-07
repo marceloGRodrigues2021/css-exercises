@@ -22,8 +22,13 @@ ul.left-links, ul.right-links {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #666;
 }
+
+a:hover, a:visited {
+  color: #e4b362;
+}
+
 
 .header {
   display: flex;
@@ -69,6 +74,11 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
+}
+
+button:hover {
+  color: #e4b362;
 }
 
 input {
